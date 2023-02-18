@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Water Thermostat Controller</title>
+        <link rel="stylesheet" href="page.css">
+        <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="page.css">
+    </head>
+    <body>
+    
+   
+		<form action="/get" method="post">
+		
+			<h1>Water Tempreature</h1>
+				
+			<label for="minTemp">Minimum Tempreature:</label>
+			<input type="number" id="minTemp" name="min_temp">	
+
+			<br>
+			
+			<label for="maxTemp">Maximum Tempreature:</label>
+			<input type="number" id="maxTemp" name="max_temp">	
+			
+			<br>
+			
+			<h1>Servo Angle</h1>
+			<label for="minAngle">Minimum Angle:</label>
+			<input type="number" id="minAngle" name="min_angle">	
+			
+			<br>
+			
+			<label for="maxAngle">Maximum Angle:</label>
+			<input type="number" id="maxAngle" name="max_angle">	
+				
+			<br>
+			<br>
+			
+			<div class="container">			
+				<button class="btn" type="submit">Submit</button>
+				<button class="btn" type="reset">Reset</button>
+			</div>
+			
+		</form>
+            
+    </body>
+</html>
